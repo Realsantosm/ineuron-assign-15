@@ -287,23 +287,19 @@ a {
   line-height: 35px;
 }
 
-
 .box-details span {
   color: #e32834;
   font-size: 15px;
   cursor: pointer;
 }
 
-
 .project-box:nth-child(3) .img-box {
   padding: 30px 0;
 }
 
-
 .project-box:nth-child(3) .img-box img {
   height: 249px;
 }
-
 
 .posters {
   display: flex;
@@ -315,11 +311,9 @@ a {
   margin: 20px auto;
 }
 
-
 .first-poster .heading h1 {
   font-size: 50px;
 }
-
 
 .second-poster .heading span {
   font-size: 15px;
@@ -337,26 +331,26 @@ a {
 
 /* ---------------------------------- Footer Section ------------------------------------------------ */
 
-.footer {
+.section-footer {
   margin: 20px 0 0 0;
 }
 
-.footer ul {
+.section-footer ul {
   margin-bottom: 20px;
 }
 
-.footer ul {
+.section-footer ul {
   display: flex;
   justify-content: center;
 }
 
-.footer li {
+.section-footer li {
   margin: 0 20px;
   opacity: 0.7;
   cursor: pointer;
 }
 
-.footer__icon {
+.section-footer-bottom {
   background-color: #1e1e1e;
   padding: 20px 100px;
   display: flex;
@@ -364,11 +358,11 @@ a {
   align-items: center;
 }
 
-.footer__logo img {
+.section-logo img {
   width: 90px;
 }
 
-.footer__icons i {
+.social-links i {
   background-color: #181818;
   font-size: 30px;
   margin: 0 30px;
