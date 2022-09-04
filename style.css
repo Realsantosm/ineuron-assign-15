@@ -368,3 +368,129 @@ a {
   margin: 0 30px;
   cursor: pointer;
 }
+
+
+
+/* Responsive Styles of the Web Page  */
+
+
+@media screen and (max-width : 760px) {
+ .navbar {
+  max-width: 768px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  font-weight: bold;
+  
+ } 
+
+ .navbar-logo {
+  display: none;
+ }
+
+ .header-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ .header-content span {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 80px;
+  color: yellow;
+  font-family: serif;
+ }
+
+ .header-content {
+  text-align: center;
+ }
+
+ .section-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .section-one-break {
+  display: flex;
+  flex-direction: column;
+ }
+ 
+ .boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .boxes .box {
+  margin: 10px 0;
+  border-radius: 2rem;
+ }
+
+ .all-items {
+  display: none;
+ }
+
+ .section-project {
+  margin-top: 190px;
+ }
+
+ .section-project-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+ }
+
+ .section-project-heading h2,p {
+  text-align: center;
+ }
+
+ .box-details {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .posters {
+  display: flex;
+  flex-direction: column;
+  font-size: smaller;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 2rem;
+ }
+
+ .posters .first-poster .heading h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+ }
+
+ .section-footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .section-footer {
+  margin-top: -9px;
+  font-size: smaller;
+ }
+
+ .section-footer ul li {
+  font-size: 16px;
+  font-weight: bold;
+  color: yellow;
+ }
+
+ .section-footer i {
+  color: yellow;
+ }
+
+}
